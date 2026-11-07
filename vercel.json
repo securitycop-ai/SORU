@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/blog/organic-matters", "destination": "/blog/why-organic-matters", "permanent": true },
+    { "source": "/blog/organic", "destination": "/blog/why-organic-matters", "permanent": true }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
