@@ -5,9 +5,9 @@ export type LegalPage = "privacy" | "terms" | "food-safety" | "allergens" | null
 
 const CONTACT = {
   email: "valli@sorufoods.com",
-  phone: "+44 7393 066783",
-  address: "14 Museum Place, Cardiff, Wales, CF10 3BH",
-  company: "SORU",
+  phone: "+91 98400 00000",
+  address: "Chennai, Tamil Nadu, India",
+  company: "Soru Food Group Private Limited",
 };
 
 const S = ({ title, children }: { title: string; children: React.ReactNode }) => (
@@ -45,7 +45,7 @@ const Privacy = () => (
       <p>Email correspondence is retained for as long as necessary to manage the enquiry, and no longer than 3 years unless a legal obligation requires otherwise.</p>
     </S>
     <S title="7. Your Rights Under UK GDPR">
-      <p>You have the right to: access your personal data, request correction or erasure, restrict or object to processing, and lodge a complaint with the <strong className="text-white/90">UK Information Commissioner's Office (ICO)</strong> at ico.org.uk.</p>
+      <p>You have the right to: access your personal data, request correction or erasure, restrict or object to processing, and lodge a complaint with the <strong className="text-white/90">Ministry of Electronics and Information Technology (MeitY)</strong> under India's Digital Personal Data Protection Act 2023.</p>
       <p>To exercise any of these rights, email us at <a href={`mailto:${CONTACT.email}`} className="text-[#f5e3b1] underline">{CONTACT.email}</a>.</p>
     </S>
     <S title="8. Third-Party Links">
@@ -63,14 +63,14 @@ const Terms = () => (
     <div className="flex items-center gap-3"><FileText size={20} className="text-[#f5e3b1]" /><h2 className="text-xl font-serif font-bold text-white">Terms of Service</h2></div>
     <p className="text-white/40 text-[11px] uppercase tracking-wide">Last updated: June 2026</p>
     <S title="1. About This Website">
-      <p>This website is operated by <strong className="text-white/90">{CONTACT.company}</strong>, a company registered in England and Wales (Registered Office: {CONTACT.address}).</p>
+      <p>This website is operated by <strong className="text-white/90">{CONTACT.company}</strong>, a company registered in India (Registered Office: {CONTACT.address}).</p>
       <p>This is a pre-launch informational website. SORU is currently in the product development phase. No products are available for purchase at this time. All product descriptions, nutritional claims, formulation details, and launch timelines published on this website reflect current development targets and are subject to change prior to commercial launch.</p>
     </S>
     <S title="2. Acceptance of Terms">
       <p>By accessing and using this website, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use this website.</p>
     </S>
     <S title="3. Intellectual Property">
-      <p>All content on this website, including but not limited to the SORU brand name, logo, product names, product designs, written content, images, and graphics, is the property of {CONTACT.company} and is protected by United Kingdom copyright and intellectual property law.</p>
+      <p>All content on this website, including but not limited to the SORU brand name, logo, product names, product designs, written content, images, and graphics, is the property of {CONTACT.company} and is protected by Indian copyright and intellectual property law.</p>
       <p>You may not reproduce, distribute, modify, or use any content from this website for commercial purposes without prior written permission from {CONTACT.company}.</p>
     </S>
     <S title="4. Accuracy of Information">
@@ -87,7 +87,7 @@ const Terms = () => (
       <p>This website contains links to third-party websites including LinkedIn and Companies House. These links are provided for your convenience only. SORU has no control over the content of those sites and accepts no responsibility for them.</p>
     </S>
     <S title="8. Governing Law">
-      <p>These Terms of Service are governed by the laws of England and Wales. Any disputes arising in connection with these terms shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+      <p>These Terms of Service are governed by the laws of India. Any disputes arising in connection with these terms shall be subject to the exclusive jurisdiction of the courts of Chennai, Tamil Nadu.</p>
     </S>
     <S title="9. Changes to These Terms">
       <p>We may update these Terms of Service from time to time. The date at the top of this page will reflect the most recent version. Continued use of the website following any changes constitutes your acceptance of the updated terms.</p>
@@ -109,11 +109,11 @@ const FoodSafety = () => (
       <p>SORU is committed to developing food products that fully comply with all applicable United Kingdom food safety and labelling regulations. Our products are being designed from the ground up with regulatory compliance as a core requirement.</p>
       <p>The primary legislation and standards we are working to comply with include:</p>
       <ul className="list-disc pl-5 space-y-1">
-        <li>Food Safety Act 1990</li>
-        <li>Food Information Regulations 2014 (UK FIR 2014)</li>
-        <li>Retained EU Regulation (EC) No 1924/2006 on nutrition and health claims</li>
-        <li>UK Organic Farming Regulations (retained from EU Regulation 848/2018)</li>
-        <li>Food Standards Agency (FSA) guidelines on allergen labelling</li>
+        <li>Food Safety and Standards Act 2006 (FSSAI)</li>
+        <li>Food Safety and Standards (Labelling and Display) Regulations 2020</li>
+        <li>Food Safety and Standards (Health Claims) Regulations 2018</li>
+        <li>FSSAI Organic Foods Regulations 2017</li>
+        <li>FSSAI guidelines on allergen labelling</li>
         <li>Codex Alimentarius standards where applicable</li>
       </ul>
     </S>
@@ -126,7 +126,7 @@ const FoodSafety = () => (
       <p>In accordance with UK organic labelling regulations, the term "organic" will only appear on final product packaging once full certification has been granted.</p>
     </S>
     <S title="4. Nutritional Labelling">
-      <p>Our final product packaging will include a full Nutrition Declaration in compliance with UK FIR 2014. All nutritional figures currently referenced on this website are based on target formulation data and are subject to change following final production and independent laboratory testing.</p>
+      <p>Our final product packaging will include a full Nutrition Declaration in compliance with FSSAI Labelling and Display Regulations 2020. All nutritional figures currently referenced on this website are based on target formulation data and are subject to change following final production and independent laboratory testing.</p>
     </S>
     <S title="5. Health and Nutrition Claims">
       <p>Any nutrition or health claims made about our products are made in line with the requirements of retained Regulation (EC) No 1924/2006. Where claims appear on this pre-launch website, they reflect development targets and will be substantiated through verified nutritional analysis before appearing on commercial products.</p>
@@ -154,7 +154,7 @@ const Allergens = () => (
       <p className="text-yellow-200/80 text-[12px] mt-1">SORU is currently a pre-launch food company. No products are available for sale. The allergen information below reflects our development-stage target formulation only. It has not been verified through final manufacturing or independent allergen testing. Do not use this information to make dietary or medical decisions regarding food allergies or intolerances.</p>
     </div>
     <S title="1. The 14 Major Allergens (UK Law)">
-      <p>Under the UK Food Information Regulations 2014, food businesses are required to declare the presence of 14 major allergens. These are:</p>
+      <p>Under FSSAI Labelling and Display Regulations 2020, food businesses are required to declare the presence of major allergens on all product packaging. These are:</p>
       <ul className="list-disc pl-5 space-y-1 columns-2">
         <li>Cereals containing gluten</li><li>Crustaceans</li><li>Eggs</li><li>Fish</li>
         <li>Peanuts</li><li>Soybeans</li><li>Milk (incl. lactose)</li><li>Tree Nuts</li>

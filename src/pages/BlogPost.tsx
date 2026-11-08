@@ -102,7 +102,7 @@ const BlogPost = () => {
               <ArrowLeft size={14} /> All Posts
             </Link>
             <a
-              href="https://www.linkedin.com/in/harsh-sanmukh-167b86292"
+              href="https://www.linkedin.com/company/soru-food-group/"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 text-[#0077b5] hover:text-[#5ab5e0] text-[13px] font-semibold transition-colors"

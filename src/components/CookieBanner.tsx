@@ -5,17 +5,17 @@ export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const accepted = localStorage.getItem("hnm-cookie-consent");
+    const accepted = localStorage.getItem("soru-cookie-consent");
     if (!accepted) setTimeout(() => setVisible(true), 1200);
   }, []);
 
   const accept = () => {
-    localStorage.setItem("hnm-cookie-consent", "accepted");
+    localStorage.setItem("soru-cookie-consent", "accepted");
     setVisible(false);
   };
 
   const decline = () => {
-    localStorage.setItem("hnm-cookie-consent", "declined");
+    localStorage.setItem("soru-cookie-consent", "declined");
     setVisible(false);
   };
 

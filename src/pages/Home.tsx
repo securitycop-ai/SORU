@@ -11,7 +11,7 @@ const Home = () => {
       <section className="min-h-screen flex items-center justify-center px-4 sm:px-8 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <video autoPlay loop muted playsInline className="w-full h-full object-cover">
-            <source src="/hnm-brand-video.mp4" type="video/mp4" />
+            <source src="/soru-bg.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-[#1a0800]/72" />
         </div>

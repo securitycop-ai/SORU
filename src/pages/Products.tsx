@@ -128,7 +128,7 @@ const Products = () => (
             Clean-label where possible. No artificial additives. Traditional ingredients that have been used in Tamil households for generations.
           </p>
           <p className="text-white/40 text-[12px] leading-relaxed mb-8 italic">
-            Note: We use the name "SORU Naturals" rather than "SORU Organics" until full organic certification requirements are met under UK rules.
+            Note: We use the name "SORU Naturals" rather than "SORU Organics" until full organic certification requirements are met under FSSAI regulations.
           </p>
           <div className="grid grid-cols-2 gap-3">
             {["Sathu Maavu", "Millet Dosa Mix", "Millet Idli Mix", "Ragi Kanji", "Upma Mix", "Podis", "Spice Blends", "Breakfast Mixes"].map((item) => (

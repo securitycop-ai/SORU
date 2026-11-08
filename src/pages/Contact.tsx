@@ -111,7 +111,7 @@ const Contact = () => {
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
               <MapPin size={18} className="text-[#f5e3b1] mb-3" />
               <p className="text-white/40 text-[11px] font-bold tracking-[2px] uppercase mb-1">Location</p>
-              <p className="text-white text-[14px]">United Kingdom</p>
+              <p className="text-white text-[14px]">Chennai, Tamil Nadu, India</p>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
               <p className="text-white/40 text-[11px] font-bold tracking-[2px] uppercase mb-3">We hear from</p>

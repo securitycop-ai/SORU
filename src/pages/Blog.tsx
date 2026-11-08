@@ -22,7 +22,7 @@ const Blog = () => {
             Stories and updates from the team building SORU.
           </p>
           <a
-            href="https://www.linkedin.com/company/hnm-food-groups/"
+            href="https://www.linkedin.com/company/soru-food-group/"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 border border-[#0077b5]/50 text-white px-6 py-3 rounded font-semibold text-[13px] tracking-[0.5px] uppercase hover:bg-[#0077b5]/10 transition-colors"
@@ -52,7 +52,7 @@ const Blog = () => {
                     }}
                   />
                   {/* Concept image label for AI-generated product visuals */}
-                  {(post.image.includes("hnm-cereal-box-photo") || post.image.includes("hnm-cereal-bowl") || post.image.includes("hnm-cereal-hero") || post.image.includes("hnm-family-cereal")) && (
+                  {post.image.includes("concept") && (
                     <span className="absolute bottom-2 right-2 bg-black/60 text-white/60 text-[10px] px-2 py-0.5 rounded font-medium tracking-wide">
                       Concept image
                     </span>
