@@ -123,19 +123,23 @@ const Home = () => {
             <p className="text-[#f5e3b1] text-[10px] font-bold tracking-[2.5px] uppercase mb-3">Our ambition</p>
             <h2 className="font-serif text-2xl sm:text-3xl text-white mb-4">The McDonald's of authentic Indian food.</h2>
             <p className="text-white/60 text-[15px] leading-relaxed max-w-[500px]">
-              We are building a scalable global Indian food brand: consistent recipes, great ingredients, honest pricing, and a deep respect for the food culture we come from. Rooted in India. Growing worldwide.
+              We are building a scalable global Indian food brand: consistent recipes, great ingredients, honest pricing, and a deep respect for the food culture we come from. Rooted in India. Shipping to 8 markets worldwide.
             </p>
           </div>
-          <div className="flex flex-wrap justify-center md:justify-end gap-6 md:gap-10 text-center">
+          <div className="flex flex-wrap justify-center md:justify-end gap-3">
             {[
-              { n: "3",        label: "Business areas" },
-              { n: "India",    label: "Home market" },
-              { n: "Chennai",  label: "Food roots" },
-              { n: "Global",   label: "Ambition" },
-            ].map(({ n, label }) => (
-              <div key={label}>
-                <p className="font-serif text-3xl sm:text-4xl text-[#f5e3b1] font-bold">{n}</p>
-                <p className="text-white/50 text-[11px] font-semibold tracking-[1.5px] uppercase mt-1">{label}</p>
+              { flag: "🇮🇳", country: "India" },
+              { flag: "🇬🇧", country: "UK" },
+              { flag: "🇦🇪", country: "UAE" },
+              { flag: "🇲🇾", country: "Malaysia" },
+              { flag: "🇸🇬", country: "Singapore" },
+              { flag: "🇺🇸", country: "USA" },
+              { flag: "🇨🇦", country: "Canada" },
+              { flag: "🇦🇺", country: "Australia" },
+            ].map(({ flag, country }) => (
+              <div key={country} className="bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-center min-w-[72px]">
+                <p className="text-xl">{flag}</p>
+                <p className="text-white/60 text-[10px] font-semibold mt-0.5">{country}</p>
               </div>
             ))}
           </div>

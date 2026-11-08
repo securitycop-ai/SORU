@@ -77,17 +77,27 @@ const About = () => (
     </section>
 
     <section className="py-16 sm:py-20 px-4 sm:px-8 border-t border-white/10">
-      <div className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-        {[
-          { n: "Chennai", label: "Food origin" },
-          { n: "India",   label: "Home market" },
-          { n: "Global",  label: "Long-term vision" },
-        ].map(({ n, label }) => (
-          <div key={label} className="bg-white/5 border border-white/10 rounded-2xl p-8">
-            <p className="font-serif text-4xl text-[#f5e3b1] font-bold mb-2">{n}</p>
-            <p className="text-white/50 text-[11px] font-semibold tracking-[1.5px] uppercase">{label}</p>
-          </div>
-        ))}
+      <div className="max-w-[1240px] mx-auto">
+        <p className="text-[#f5e3b1] text-[11px] font-bold tracking-[2.5px] uppercase mb-4 text-center">Our target markets</p>
+        <h2 className="font-serif text-3xl sm:text-4xl text-white mb-10 text-center">Where SORU is going.</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+          {[
+            { flag: "🇮🇳", country: "India",       phase: "Home market" },
+            { flag: "🇬🇧", country: "UK",           phase: "Phase 1" },
+            { flag: "🇦🇪", country: "UAE",          phase: "Phase 1" },
+            { flag: "🇲🇾", country: "Malaysia",     phase: "Phase 1" },
+            { flag: "🇸🇬", country: "Singapore",    phase: "Phase 2" },
+            { flag: "🇺🇸", country: "USA",          phase: "Phase 2" },
+            { flag: "🇨🇦", country: "Canada",       phase: "Phase 2" },
+            { flag: "🇦🇺", country: "Australia",    phase: "Phase 2" },
+          ].map(({ flag, country, phase }) => (
+            <div key={country} className="bg-white/5 border border-white/10 rounded-2xl p-5 text-center hover:border-[#f5e3b1]/25 transition-colors">
+              <p className="text-3xl mb-2">{flag}</p>
+              <p className="font-serif text-white font-semibold text-[15px]">{country}</p>
+              <p className="text-[#f5e3b1]/60 text-[10px] font-bold tracking-[1.5px] uppercase mt-1">{phase}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
 

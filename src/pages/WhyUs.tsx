@@ -73,16 +73,21 @@ const WhyUs = () => (
             Meet the founder <ArrowRight size={15} />
           </Link>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           {[
-            { n: "3",       label: "Business areas" },
-            { n: "India",   label: "Home market" },
-            { n: "Global",  label: "Long-term ambition" },
-            { n: "Chennai", label: "Food roots" },
-          ].map(({ n, label }) => (
-            <div key={label} className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center">
-              <p className="font-serif text-3xl sm:text-4xl text-[#f5e3b1] font-bold">{n}</p>
-              <p className="text-white/50 text-[11px] font-semibold tracking-[1.5px] uppercase mt-2">{label}</p>
+            { flag: "🇮🇳", country: "India",     phase: "Home" },
+            { flag: "🇬🇧", country: "UK",         phase: "Phase 1" },
+            { flag: "🇦🇪", country: "UAE",        phase: "Phase 1" },
+            { flag: "🇲🇾", country: "Malaysia",   phase: "Phase 1" },
+            { flag: "🇸🇬", country: "Singapore",  phase: "Phase 2" },
+            { flag: "🇺🇸", country: "USA",        phase: "Phase 2" },
+            { flag: "🇨🇦", country: "Canada",     phase: "Phase 2" },
+            { flag: "🇦🇺", country: "Australia",  phase: "Phase 2" },
+          ].map(({ flag, country, phase }) => (
+            <div key={country} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center hover:border-[#f5e3b1]/25 transition-colors">
+              <p className="text-2xl mb-1">{flag}</p>
+              <p className="font-serif text-white text-[13px] font-semibold">{country}</p>
+              <p className="text-[#f5e3b1]/60 text-[9px] font-bold tracking-[1.5px] uppercase mt-0.5">{phase}</p>
             </div>
           ))}
         </div>
