@@ -175,9 +175,8 @@ const Products = () => (
             Note: We use the name "SORU Naturals" rather than "SORU Organics" until full organic certification requirements are met under FSSAI regulations.
           </p>
           {/* Product image */}
-          <div className="mb-6 rounded-2xl overflow-hidden border border-white/10 bg-white/5 p-4">
-            <img src="/soru-logo.png" alt="SORU Sathu Maavu — Traditional Multigrain Milkshake" className="w-auto max-h-48 mx-auto object-contain" />
-            <p className="text-center text-white/40 text-[11px] mt-3 tracking-wide uppercase">SORU Sathu Maavu · 315g · Traditional Multigrain Milkshake</p>
+          <div className="mb-6 rounded-2xl overflow-hidden border border-white/10 bg-white/5">
+            <img src="/soru-sathu-maavu.webp" alt="SORU Sathu Maavu — Traditional Multigrain Milkshake" className="w-full h-auto object-contain" />
           </div>
           <div className="grid grid-cols-2 gap-3">
             {["Sathu Maavu", "Millet Dosa Mix", "Millet Idli Mix", "Ragi Kanji", "Upma Mix", "Podis", "Spice Blends", "Breakfast Mixes"].map((item) => (
