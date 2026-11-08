@@ -22,10 +22,10 @@ const About = () => (
           <h2 className="font-serif text-3xl sm:text-4xl text-white mb-6">It started with the food I grew up with.</h2>
           <div className="space-y-5 text-white/65 text-[15px] leading-relaxed">
             <p>
-              Growing up in Chennai, food was inseparable from daily life. The aromas of filter kaapi in the morning, the rhythm of grinding idli batter, the complex spicing of a Chettinad curry — these were not special occasions. They were just life.
+              Growing up in Chennai, food was inseparable from daily life. I remember watching my mother carefully roast and grind a blend of nutritious grains, nuts, and pulses in the morning — the rhythm of making idli batter, the aromas of filter kaapi, the complex spicing of a Chettinad curry. These were not special occasions. They were just life.
             </p>
             <p>
-              When I moved to the UK, I found myself looking for that food and not finding it in a form that felt right. The Indian food that existed here was either too simplified, too anglicised, or too expensive for everyday eating.
+              My mother's kitchen was a place of warmth and health. Her Sathu Maavu was her special recipe for well-being, packed with essential nutrients for a growing child. Today, I share her homemade secret with the world, bringing traditional nourishment to modern families.
             </p>
             <p>
               I kept coming back to the same question: why has no one built a modern Indian food brand the way McDonald's built burgers? Consistent, scalable, affordable, and genuinely good?
@@ -51,7 +51,7 @@ const About = () => (
           <div className="bg-white/5 border border-white/10 rounded-2xl p-7">
             <p className="text-[#f5e3b1] text-[11px] font-bold tracking-[2px] uppercase mb-3">The ambition</p>
             <p className="text-white/65 text-[14px] leading-relaxed">
-              Starting in the UK. Growing across Europe, North America, the Middle East, and eventually India. SORU is designed from the beginning to be a global brand — not a niche one.
+              Built in Chennai. Growing across Europe, North America, the Middle East, and globally. SORU is designed from the beginning to be a global brand — not a niche one.
             </p>
           </div>
         </div>
@@ -70,7 +70,7 @@ const About = () => (
             The vision for SORU is both personal and commercial: to create a food brand that Tamil people recognise as authentic, and that the rest of the world discovers as something genuinely new.
           </p>
           <p>
-            SORU is currently in development, building its operations, product range, and go-to-market strategy for the UK launch. We are working on the restaurant model, easy-cook range, and packaged food line in parallel.
+            SORU is currently in development, building its operations, product range, and go-to-market strategy. We are working on the restaurant model, easy-cook range, and packaged food line in parallel — starting from Chennai, reaching the world.
           </p>
         </div>
       </div>
@@ -100,7 +100,7 @@ const About = () => (
             Register Interest <ArrowRight size={15} />
           </Link>
           <Link to="/blog" className="inline-flex items-center justify-center gap-2 border border-[#f5e3b1]/40 text-[#f5e3b1] px-8 py-4 rounded font-bold text-[12px] tracking-[0.8px] uppercase hover:border-[#f5e3b1] transition-colors">
-            Read the Journal
+            Read the News
           </Link>
         </div>
       </div>

@@ -16,10 +16,10 @@ const Blog = () => {
     <div className="pt-[76px]">
       <section className="py-16 sm:py-24 px-4 sm:px-8">
         <div className="max-w-[1240px] mx-auto text-center">
-          <p className="text-[#f5e3b1] text-[11px] font-bold tracking-[2.5px] uppercase mb-4">Journal</p>
-          <h1 className="font-serif text-5xl md:text-6xl text-white mb-6">Stories from SORU</h1>
+          <p className="text-[#f5e3b1] text-[11px] font-bold tracking-[2.5px] uppercase mb-4">News</p>
+          <h1 className="font-serif text-5xl md:text-6xl text-white mb-6">News from SORU</h1>
           <p className="text-white/60 text-lg max-w-[560px] mx-auto mb-8">
-            Stories and updates from the team building SORU.
+            Stories, updates, and insights from the team building SORU Food Group.
           </p>
           <a
             href="https://www.linkedin.com/company/soru-food-group/"

@@ -129,7 +129,7 @@ const Home = () => {
           <div className="flex flex-wrap justify-center md:justify-end gap-6 md:gap-10 text-center">
             {[
               { n: "3",        label: "Business areas" },
-              { n: "UK",       label: "Launch market" },
+              { n: "India",    label: "Home market" },
               { n: "Chennai",  label: "Food roots" },
               { n: "Global",   label: "Ambition" },
             ].map(({ n, label }) => (

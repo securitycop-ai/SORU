@@ -10,8 +10,33 @@ const Products = () => (
           Three Connected Businesses. One Identity.
         </h1>
         <p className="text-white/65 text-lg max-w-[560px] leading-relaxed">
-          SORU operates across fast-casual restaurants, easy-cook meal kits, and packaged natural foods — all rooted in Tamil and Chennai food culture.
+          SORU operates across fast-casual restaurants, easy-cook meal kits, and packaged natural foods — the McDonald's model for authentic Chennai food culture.
         </p>
+      </div>
+    </section>
+
+    {/* McDonald's of Indian Food */}
+    <section className="py-10 px-4 sm:px-8 border-t border-white/10 bg-[#f5e3b1]/5">
+      <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row items-center gap-8">
+        <div className="flex-1">
+          <p className="text-[#f5e3b1] text-[11px] font-bold tracking-[2.5px] uppercase mb-3">The vision</p>
+          <h2 className="font-serif text-2xl sm:text-3xl text-white mb-4">The McDonald's of authentic Indian food.</h2>
+          <p className="text-white/65 text-[15px] leading-relaxed">
+            McDonald's standardised burgers globally. Nando's standardised peri-peri. No one has done this for Indian food at scale — not because the food isn't good enough, but because no one has built the brand properly. SORU is that brand. Consistent recipes, great ingredients, honest pricing. Starting from Chennai. Growing worldwide.
+          </p>
+        </div>
+        <div className="grid grid-cols-3 gap-4 text-center shrink-0">
+          {[
+            { n: "3", label: "Divisions" },
+            { n: "Chennai", label: "Food roots" },
+            { n: "Global", label: "Ambition" },
+          ].map(({ n, label }) => (
+            <div key={label} className="bg-white/5 border border-white/10 rounded-2xl p-5">
+              <p className="font-serif text-2xl sm:text-3xl text-[#f5e3b1] font-bold">{n}</p>
+              <p className="text-white/50 text-[10px] font-semibold tracking-[1.5px] uppercase mt-2">{label}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
 
@@ -74,19 +99,37 @@ const Products = () => (
           <p className="text-white/65 text-[15px] leading-relaxed mb-8">
             Designed for students, working professionals, and anyone who wants genuine Indian home cooking without the complexity.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[
-              "One-Pot Sambar",
-              "10-Minute Lemon Rice",
-              "Bachelor Biryani Kit",
-              "Quick Pongal",
-              "Upma in 10",
-              "Rasam Kit",
-              "Dosa Kit",
-              "Tomato Rice",
-            ].map((item) => (
-              <div key={item} className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-[13px] text-white/70">{item}</div>
-            ))}
+          <div className="mb-6">
+            <p className="text-white/40 text-[11px] font-bold tracking-[2px] uppercase mb-3">Meal Kits</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[
+                "One-Pot Sambar",
+                "10-Minute Lemon Rice",
+                "Bachelor Biryani Kit",
+                "Quick Pongal",
+                "Upma in 10",
+                "Rasam Kit",
+                "Dosa Kit",
+                "Tomato Rice",
+              ].map((item) => (
+                <div key={item} className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-[13px] text-white/70">{item}</div>
+              ))}
+            </div>
+          </div>
+          <div>
+            <p className="text-white/40 text-[11px] font-bold tracking-[2px] uppercase mb-3">Ready-Made Range</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[
+                "Chutney Box (Coconut, Tomato, Mint)",
+                "Ready Idli Batter",
+                "Ready Dosa Batter",
+                "Instant Sambar Mix",
+                "Chettinad Curry Paste",
+                "Filter Kaapi Decoction",
+              ].map((item) => (
+                <div key={item} className="bg-[#f5a05a]/5 border border-[#f5a05a]/20 rounded-lg px-4 py-3 text-[13px] text-white/70">{item}</div>
+              ))}
+            </div>
           </div>
         </div>
         <div className="bg-white/5 border border-white/10 rounded-2xl p-8 lg:order-1">
@@ -96,7 +139,8 @@ const Products = () => (
               ["10–15 minutes", "Every kit is designed to cook in under 15 minutes."],
               ["Portioned packs", "No measuring. Everything is pre-portioned."],
               ["Real ingredients", "Spices, lentils, grains — not powders or pastes."],
-              ["Clear instructions", "Step-by-step, beginner-friendly."],
+              ["Chutney box", "Fresh-style chutneys in a ready-to-use box — coconut, tomato, mint — all three in one."],
+              ["Ready-made range", "Pre-made idli batter, dosa batter, and curry pastes for zero-prep cooking."],
               ["Scalable retail", "Built for supermarkets, delivery apps, and online."],
             ].map(([title, desc]) => (
               <li key={title} className="flex gap-4">
@@ -127,9 +171,14 @@ const Products = () => (
           <p className="text-white/65 text-[15px] leading-relaxed mb-2">
             Clean-label where possible. No artificial additives. Traditional ingredients that have been used in Tamil households for generations.
           </p>
-          <p className="text-white/40 text-[12px] leading-relaxed mb-8 italic">
+          <p className="text-white/40 text-[12px] leading-relaxed mb-6 italic">
             Note: We use the name "SORU Naturals" rather than "SORU Organics" until full organic certification requirements are met under FSSAI regulations.
           </p>
+          {/* Product image */}
+          <div className="mb-6 rounded-2xl overflow-hidden border border-white/10 bg-white/5 p-4">
+            <img src="/soru-logo.png" alt="SORU Sathu Maavu — Traditional Multigrain Milkshake" className="w-auto max-h-48 mx-auto object-contain" />
+            <p className="text-center text-white/40 text-[11px] mt-3 tracking-wide uppercase">SORU Sathu Maavu · 315g · Traditional Multigrain Milkshake</p>
+          </div>
           <div className="grid grid-cols-2 gap-3">
             {["Sathu Maavu", "Millet Dosa Mix", "Millet Idli Mix", "Ragi Kanji", "Upma Mix", "Podis", "Spice Blends", "Breakfast Mixes"].map((item) => (
               <div key={item} className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-[13px] text-white/70">{item}</div>

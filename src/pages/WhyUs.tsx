@@ -36,7 +36,7 @@ const WhyUs = () => (
           {
             n: "04",
             title: "Designed to scale",
-            body: "SORU is built for global expansion — standardised recipes, scalable operations, and a retail-ready packaged food business. Starting in the UK, growing across Europe, North America, and the Middle East.",
+            body: "SORU is built for global expansion — standardised recipes, scalable operations, and a retail-ready packaged food business. Starting from Chennai, growing across Europe, North America, the Middle East, and beyond.",
           },
           {
             n: "05",
@@ -76,7 +76,7 @@ const WhyUs = () => (
         <div className="grid grid-cols-2 gap-4">
           {[
             { n: "3",       label: "Business areas" },
-            { n: "UK",      label: "Launch market" },
+            { n: "India",   label: "Home market" },
             { n: "Global",  label: "Long-term ambition" },
             { n: "Chennai", label: "Food roots" },
           ].map(({ n, label }) => (

@@ -141,7 +141,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><Link to="/about"   className="text-[14px] text-white/60 hover:text-[#f5e3b1] transition-colors">Our Story</Link></li>
               <li><Link to="/why-us"  className="text-[14px] text-white/60 hover:text-[#f5e3b1] transition-colors">Why SORU</Link></li>
-              <li><Link to="/blog"    className="text-[14px] text-white/60 hover:text-[#f5e3b1] transition-colors">Journal</Link></li>
+              <li><Link to="/blog"    className="text-[14px] text-white/60 hover:text-[#f5e3b1] transition-colors">News</Link></li>
               <li><Link to="/contact" className="text-[14px] text-white/60 hover:text-[#f5e3b1] transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -151,7 +151,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start gap-2.5">
                 <Mail size={14} className="text-white/40 shrink-0 mt-0.5" />
-                <a href="mailto:valli@sorufoods.com" className="text-[14px] text-white/60 hover:text-[#f5e3b1] transition-colors break-all">valli@sorufoods.com</a>
+                <a href="mailto:valli@sorufoodgroup.com" className="text-[14px] text-white/60 hover:text-[#f5e3b1] transition-colors break-all">valli@sorufoodgroup.com</a>
               </div>
               <div className="flex items-start gap-2.5">
                 <MapPin size={14} className="text-white/40 shrink-0 mt-0.5" />

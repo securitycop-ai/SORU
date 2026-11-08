@@ -5,7 +5,7 @@ const strings: Record<string, string> = {
   nav_products: "Our Food",
   nav_whyus:    "Why SORU",
   nav_about:    "Our Story",
-  nav_blog:     "Journal",
+  nav_blog:     "News",
   nav_media:    "Media",
   nav_contact:  "Contact",
 
@@ -26,7 +26,7 @@ const strings: Record<string, string> = {
   feat3_title:  "Better Ingredients",
   feat3_desc:   "Millets, traditional grains, natural spices, no artificial additives. Clean-label wherever possible. Quality you can taste.",
   feat4_title:  "Built to Scale",
-  feat4_desc:   "SORU is designed to grow from the UK across Europe, North America, the Middle East, and beyond — a global Indian food brand.",
+  feat4_desc:   "SORU is designed to grow from Chennai across Europe, North America, the Middle East, and beyond — a global Indian food brand.",
 
   product_label:   "What We're Building",
   product_heading: "Three Connected Businesses. One Identity.",
@@ -41,7 +41,7 @@ const strings: Record<string, string> = {
   footer_products:  "Our Food",
   footer_company:   "Company",
   footer_contact:   "Contact",
-  footer_copyright: "© 2026 SORU. All rights reserved.",
+  footer_copyright: "© 2026 SORU Food Group. All rights reserved.",
   follow_us:        "Follow Us",
 
   contact_title: "Get in Touch",

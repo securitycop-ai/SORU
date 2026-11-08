@@ -48,7 +48,7 @@ const Contact = () => {
               <form onSubmit={handleSubmit} className="space-y-5">
                 {status === "error" && (
                   <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-4 text-white/70 text-[14px]">
-                    Something went wrong. Please email <a href="mailto:valli@sorufoods.com" className="text-[#f5e3b1] underline">valli@sorufoods.com</a> directly.
+                    Something went wrong. Please email <a href="mailto:valli@sorufoodgroup.com" className="text-[#f5e3b1] underline">valli@sorufoodgroup.com</a> directly.
                   </div>
                 )}
 
@@ -106,7 +106,7 @@ const Contact = () => {
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
               <Mail size={18} className="text-[#f5e3b1] mb-3" />
               <p className="text-white/40 text-[11px] font-bold tracking-[2px] uppercase mb-1">Email</p>
-              <a href="mailto:valli@sorufoods.com" className="text-white text-[14px] hover:text-[#f5e3b1] transition-colors">valli@sorufoods.com</a>
+              <a href="mailto:valli@sorufoodgroup.com" className="text-white text-[14px] hover:text-[#f5e3b1] transition-colors">valli@sorufoodgroup.com</a>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
               <MapPin size={18} className="text-[#f5e3b1] mb-3" />

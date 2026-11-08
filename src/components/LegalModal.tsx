@@ -4,7 +4,7 @@ import React from "react";
 export type LegalPage = "privacy" | "terms" | "food-safety" | "allergens" | null;
 
 const CONTACT = {
-  email: "valli@sorufoods.com",
+  email: "valli@sorufoodgroup.com",
   phone: "+91 98400 00000",
   address: "Chennai, Tamil Nadu, India",
   company: "Soru Food Group Private Limited",
@@ -44,7 +44,7 @@ const Privacy = () => (
     <S title="6. Data Retention">
       <p>Email correspondence is retained for as long as necessary to manage the enquiry, and no longer than 3 years unless a legal obligation requires otherwise.</p>
     </S>
-    <S title="7. Your Rights Under UK GDPR">
+    <S title="7. Your Rights Under the DPDP Act 2023">
       <p>You have the right to: access your personal data, request correction or erasure, restrict or object to processing, and lodge a complaint with the <strong className="text-white/90">Ministry of Electronics and Information Technology (MeitY)</strong> under India's Digital Personal Data Protection Act 2023.</p>
       <p>To exercise any of these rights, email us at <a href={`mailto:${CONTACT.email}`} className="text-[#f5e3b1] underline">{CONTACT.email}</a>.</p>
     </S>
@@ -106,7 +106,7 @@ const FoodSafety = () => (
     <div className="flex items-center gap-3"><Scale size={20} className="text-[#f5e3b1]" /><h2 className="text-xl font-serif font-bold text-white">Food Safety &amp; Regulations</h2></div>
     <p className="text-white/40 text-[11px] uppercase tracking-wide">Last updated: June 2026</p>
     <S title="1. Our Regulatory Commitment">
-      <p>SORU is committed to developing food products that fully comply with all applicable United Kingdom food safety and labelling regulations. Our products are being designed from the ground up with regulatory compliance as a core requirement.</p>
+      <p>SORU is committed to developing food products that fully comply with all applicable Indian food safety and labelling regulations under FSSAI. Our products are being designed from the ground up with regulatory compliance as a core requirement.</p>
       <p>The primary legislation and standards we are working to comply with include:</p>
       <ul className="list-disc pl-5 space-y-1">
         <li>Food Safety and Standards Act 2006 (FSSAI)</li>
@@ -122,8 +122,8 @@ const FoodSafety = () => (
       <p>All product descriptions, nutritional figures, and formulation details published on this website are development-stage targets only. Full regulatory compliance documentation will be completed and verified before any product is placed on the market.</p>
     </S>
     <S title="3. Organic Certification">
-      <p>We are committed to sourcing millet grains from certified organic farms. Our organic certification is currently in progress. We are working towards approval from a UK-authorised organic certification body.</p>
-      <p>In accordance with UK organic labelling regulations, the term "organic" will only appear on final product packaging once full certification has been granted.</p>
+      <p>We are committed to sourcing millet grains from certified organic farms. Our organic certification is currently in progress under FSSAI Organic Foods Regulations 2017.</p>
+      <p>In accordance with FSSAI organic labelling regulations, the term "organic" will only appear on final product packaging once full certification has been granted.</p>
     </S>
     <S title="4. Nutritional Labelling">
       <p>Our final product packaging will include a full Nutrition Declaration in compliance with FSSAI Labelling and Display Regulations 2020. All nutritional figures currently referenced on this website are based on target formulation data and are subject to change following final production and independent laboratory testing.</p>
@@ -153,15 +153,15 @@ const Allergens = () => (
       <p className="text-yellow-200 text-[13px] font-semibold">Important Notice</p>
       <p className="text-yellow-200/80 text-[12px] mt-1">SORU is currently a pre-launch food company. No products are available for sale. The allergen information below reflects our development-stage target formulation only. It has not been verified through final manufacturing or independent allergen testing. Do not use this information to make dietary or medical decisions regarding food allergies or intolerances.</p>
     </div>
-    <S title="1. The 14 Major Allergens (UK Law)">
-      <p>Under FSSAI Labelling and Display Regulations 2020, food businesses are required to declare the presence of major allergens on all product packaging. These are:</p>
+    <S title="1. Major Allergens (FSSAI)">
+      <p>Under FSSAI Labelling and Display Regulations 2020, food businesses are required to declare the presence of major allergens on all product packaging. These include:</p>
       <ul className="list-disc pl-5 space-y-1 columns-2">
         <li>Cereals containing gluten</li><li>Crustaceans</li><li>Eggs</li><li>Fish</li>
         <li>Peanuts</li><li>Soybeans</li><li>Milk (incl. lactose)</li><li>Tree Nuts</li>
         <li>Celery</li><li>Mustard</li><li>Sesame seeds</li><li>Sulphur dioxide</li>
         <li>Lupin</li><li>Molluscs</li>
       </ul>
-      <p>When our products are commercially launched, full allergen declarations will appear clearly on all product packaging in accordance with UK law.</p>
+      <p>When our products are commercially launched, full allergen declarations will appear clearly on all product packaging in accordance with FSSAI Labelling and Display Regulations 2020.</p>
     </S>
     <S title="2. Our Product (Development-Stage Allergen Information)">
       <p><strong className="text-white/90">Product: Millet Cereal (Target Formulation)</strong></p>
