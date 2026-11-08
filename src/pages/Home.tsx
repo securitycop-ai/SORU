@@ -123,7 +123,7 @@ const Home = () => {
             <p className="text-[#f5e3b1] text-[10px] font-bold tracking-[2.5px] uppercase mb-3">Our ambition</p>
             <h2 className="font-serif text-2xl sm:text-3xl text-white mb-4">The McDonald's of authentic Indian food.</h2>
             <p className="text-white/60 text-[15px] leading-relaxed max-w-[500px]">
-              We are building a scalable global Indian food brand: consistent recipes, great ingredients, honest pricing, and a deep respect for the food culture we come from. Starting in the UK. Growing worldwide.
+              We are building a scalable global Indian food brand: consistent recipes, great ingredients, honest pricing, and a deep respect for the food culture we come from. Rooted in India. Growing worldwide.
             </p>
           </div>
           <div className="flex flex-wrap justify-center md:justify-end gap-6 md:gap-10 text-center">

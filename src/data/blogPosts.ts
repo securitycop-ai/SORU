@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       "SORU started with a simple question: why has no one built a modern, scalable Indian food brand the way McDonald's built burgers?",
       "Growing up in Chennai, food was inseparable from daily life. The aromas of filter kaapi in the morning, the rhythm of my mother grinding idli batter, the complex spicing of a Chettinad curry — these were not special occasions. They were just life.",
-      "When I moved to the UK, I found myself looking for that food and not finding it in a form that felt right. The Indian food that existed here was either too simplified, too anglicised, or too expensive for everyday eating.",
+      "Wherever I travelled, I found myself looking for that food and not finding it in a form that felt right. The Indian food that existed outside Chennai was either too simplified, too adapted for other palates, or too expensive for everyday eating.",
       "So I started building the brand I wished existed. That brand is SORU.",
     ],
   },

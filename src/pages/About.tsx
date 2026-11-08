@@ -80,7 +80,7 @@ const About = () => (
       <div className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
         {[
           { n: "Chennai", label: "Food origin" },
-          { n: "UK",      label: "Launch market" },
+          { n: "India",   label: "Home market" },
           { n: "Global",  label: "Long-term vision" },
         ].map(({ n, label }) => (
           <div key={label} className="bg-white/5 border border-white/10 rounded-2xl p-8">
