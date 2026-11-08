@@ -49,7 +49,7 @@ const Privacy = () => (
       <p>To exercise any of these rights, email us at <a href={`mailto:${CONTACT.email}`} className="text-[#f5e3b1] underline">{CONTACT.email}</a>.</p>
     </S>
     <S title="8. Third-Party Links">
-      <p>Our website contains links to third-party sites (e.g., LinkedIn, Companies House). We are not responsible for the privacy practices of those sites.</p>
+      <p>Our website contains links to third-party sites (e.g., LinkedIn). We are not responsible for the privacy practices of those sites.</p>
     </S>
     <S title="9. Changes to This Policy">
       <p>We may update this Privacy Policy from time to time. The date at the top of this page will always reflect the most recent version.</p>
@@ -84,7 +84,7 @@ const Terms = () => (
       <p>To the fullest extent permitted by law, SORU shall not be liable for any direct, indirect, incidental, or consequential loss or damage arising from your use of, or inability to use, this website or any content on it.</p>
     </S>
     <S title="7. Third-Party Links">
-      <p>This website contains links to third-party websites including LinkedIn and Companies House. These links are provided for your convenience only. SORU has no control over the content of those sites and accepts no responsibility for them.</p>
+      <p>This website contains links to third-party websites including LinkedIn. These links are provided for your convenience only. SORU has no control over the content of those sites and accepts no responsibility for them.</p>
     </S>
     <S title="8. Governing Law">
       <p>These Terms of Service are governed by the laws of India. Any disputes arising in connection with these terms shall be subject to the exclusive jurisdiction of the courts of Chennai, Tamil Nadu.</p>
