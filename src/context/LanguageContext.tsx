@@ -2,7 +2,7 @@ import React, { createContext, useContext } from "react";
 
 const strings: Record<string, string> = {
   nav_home:     "Home",
-  nav_products: "Our Food",
+  nav_products: "Products",
   nav_whyus:    "Why SORU",
   nav_about:    "Our Story",
   nav_blog:     "News",
@@ -38,7 +38,7 @@ const strings: Record<string, string> = {
   cta_btn:     "Register Interest",
 
   footer_tagline:   "SORU — Real Chennai food. Made for the world. Fast-casual restaurants, easy-cook meal kits, and traditional health foods rooted in Tamil culture.",
-  footer_products:  "Our Food",
+  footer_products:  "Products",
   footer_company:   "Company",
   footer_contact:   "Contact",
   footer_copyright: "© 2026 SORU Food Group. All rights reserved.",
